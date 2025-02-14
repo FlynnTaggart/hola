@@ -42,7 +42,14 @@
 		/>
 	</div>
 
-	<p>{config.mainPage.invitation}</p>
+	<div>
+		<img class = "pepe"
+			src={config.mainPage.pepe}
+			alt="Pepe"
+			loading="lazy"
+		/>
+		<p>{config.mainPage.invitation}</p>
+	</div>
 
 	<div class="response-buttons">
 		<button class="btn" bind:this={noButtonRef} on:click={handleNo}>
@@ -51,5 +58,14 @@
 		<button class="btn" on:click={handleYes}>
 			{config.mainPage.yesText}
 		</button>
+	</div>
+
+	<div class = "other-pic">
+		<img
+			src={config.mainPage.otherPic}
+			alt="Greg"
+			class="side-image"
+			loading="lazy"
+		/>
 	</div>
 </div>

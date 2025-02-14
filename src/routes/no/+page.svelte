@@ -47,4 +47,19 @@
 			{config.mainPage.yesText}
 		</button>
 	</div>
+
+	<div class = "other-pic">
+		<img
+			src={config.noPage.kitty}
+			alt="kitty"
+			class="side-image"
+			loading="lazy"
+		/>
+		<img
+			src={config.noPage.tom}
+			alt="tom"
+			class="side-image"
+			loading="lazy"
+		/>
+	</div>
 </div>
