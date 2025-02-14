@@ -17,7 +17,7 @@ const config = {
 			}
 		),
 		paths: {
-			base: forGithubPages ? '/m0m3nt0m4g1c0' : ''
+			base: forGithubPages ? '/magicomomento' : ''
 		},
 	}
 
